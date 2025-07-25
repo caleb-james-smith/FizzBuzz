@@ -1,6 +1,7 @@
 # FizzBuzz.py
 
 def main():
+    print("It's time for FizzBuzz!")
     n = int(input("Please enter a positive integer (n > 0): "))
     runFizzBuzz(n)
 
