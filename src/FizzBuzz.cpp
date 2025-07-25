@@ -20,7 +20,9 @@ void FizzBuzz(int n) {
 
 int main() {
     std::cout << "It's time for FizzBuzz!" << std::endl;
-    int n = 30;
+    int n;
+    std::cout << "Please enter a positive integer (n > 0): ";
+    std::cin >> n;
     FizzBuzz(n);
     return 0;
 }
