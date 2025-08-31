@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-void FizzBuzz(int n) {
+void runFizzBuzz(int n) {
     for (int i = 1; i <= n; ++i) {
         if (i % 3 == 0 or i % 5 == 0) {
             if (i % 3 == 0) {
@@ -23,7 +23,7 @@ int main() {
     int n;
     std::cout << "Please enter a positive integer (n > 0): ";
     std::cin >> n;
-    FizzBuzz(n);
+    std::cout << "n = " << n << std::endl;
+    runFizzBuzz(n);
     return 0;
 }
-
