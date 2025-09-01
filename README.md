@@ -10,10 +10,14 @@ For numbers which are multiples of both three and five print "FizzBuzz".
 
 ## Running Solutions
 
+### Python
+
 Running FizzBuzz in Python 3 (Python 2 not supported):
 ```
 python3 python/FizzBuzz.py
 ```
+
+### C++
 
 Running FizzBuzz in C++ with GCC version 10 and later:
 ```
@@ -28,6 +32,8 @@ mkdir -p bin
 g++ --std=c++2a -o bin/FizzBuzz src/FizzBuzz.cpp
 ./bin/FizzBuzz
 ```
+
+### JavaScript
 
 Running FizzBuzz in JavaScript:
 ```
