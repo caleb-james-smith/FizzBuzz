@@ -31,16 +31,34 @@ g++ --std=c++2a -o bin/FizzBuzz src/FizzBuzz.cpp
 
 Running FizzBuzz in JavaScript:
 ```
+npm install
 node javascript/FizzBuzz.js
 ```
 
-If you get the following error when running FizzBuzz in JavaScript with node:
+If you get the following error:
+```
+node javascript/FizzBuzz.js
+
+node: /usr/lib/arm-linux-gnueabihf/libstdc++.so.6: version `GLIBCXX_3.4.26' not found (required by node)
+```
+Then you should install an use Node v16:
+```
+nvm install 16
+nvm use 16
+```
+which is compatible with GCC 8 as documented [here](https://superuser.com/a/1922572/3040726) and [here](https://stackoverflow.com/a/79752025/13520993).
+
+If you get the following error:
 ```
 node javascript/FizzBuzz.js
 
 Error: Cannot find module 'prompt-sync'
 ```
-Then you need to install prompt-sync using npm:
+Then you should install the required packages using npm:
+```
+npm install
+```
+Alternatively, you can directly install prompt-sync using npm:
 ```
 npm install prompt-sync
 ```
