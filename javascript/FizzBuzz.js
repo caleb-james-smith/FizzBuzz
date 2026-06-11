@@ -4,7 +4,10 @@ const prompt = require('prompt-sync')();
 
 function main () {
     console.log("It's time for FizzBuzz!");
-    const n = parseInt(prompt("Please enter a positive integer (n > 0): "));
+    let n = -1;
+    while (isNaN(n) || n <= 0) {
+        n = parseInt(prompt("Please enter a positive integer (n > 0): "));
+    }
     console.log(`n = ${n}`);
     runFizzBuzzV1(n);
 }
