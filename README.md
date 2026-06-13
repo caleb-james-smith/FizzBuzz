@@ -10,6 +10,20 @@ For numbers which are multiples of both three and five print "FizzBuzz".
 
 ## Running Solutions
 
+First, clone this repository.
+```
+git clone https://github.com/caleb-james-smith/FizzBuzz.git
+```
+
+### Web App
+
+The web app code is stored in the directory `web_app`.
+Open the file `FizzBuzz.html` in a browser (use the full path).
+```
+open /example/path/FizzBuzz/web_app/FizzBuzz.html
+```
+On the web page, enter a positive integer and click the `Run` button.
+
 ### Python
 
 Running FizzBuzz in Python 3 (Python 2 not supported):
