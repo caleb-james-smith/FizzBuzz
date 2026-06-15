@@ -8,7 +8,7 @@ function updateOutput() {
 
     const number = numberInput.value;
     if (number > 0) {
-       runFizzBuzz(number);
+        runFizzBuzz(number);
     }
 }
 
